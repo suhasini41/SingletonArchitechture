@@ -1,0 +1,10 @@
+Singleton Architecture :
+-----------------------------
+
+	Singleton architecture is the simplest design pattern where only one object of the singleton class is created and the same object is used throughout the framework.
+To create a singleton design pattern, we need to follow three important steps. They are,
+1) Make the reference variable of the Singleton class static.
+2) Make the constructor of the singleton class private.
+3) Create a public static factory method that returns the instance of the singleton class. Here, we create the instance of the singleton class only if the reference variable is null.
+   If not null, the already created instance is returned.
+In automation framework, we use the singleton architecture to use the same driver instance throughout the framework.
